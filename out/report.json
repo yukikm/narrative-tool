@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-02-14T22:45:47.038085+00:00",
+  "item_count": 10,
+  "params": {
+    "k_min": 2,
+    "k_max": 8,
+    "recent_days": 3,
+    "max_features": 6000,
+    "ngram_max": 2,
+    "min_df": 2,
+    "score_volume_weight": 0.55,
+    "score_trend_weight": 0.45,
+    "picked_k": 3
+  },
+  "narratives": [
+    {
+      "cluster_id": 1,
+      "name": "stablecoin, zk, add",
+      "keywords": [
+        "stablecoin",
+        "zk",
+        "add",
+        "new",
+        "tooling",
+        "demand",
+        "teams"
+      ],
+      "volume": 5,
+      "recent": 4,
+      "recent_days": 3,
+      "trend_ratio": 4.0,
+      "score": 2.3354677080754302,
+      "examples": [
+        {
+          "id": "10",
+          "created_at": "2026-02-14T18:10:00+00:00",
+          "source": "rss",
+          "title": "Stablecoin market share shifts as yields normalize",
+          "url": "https://example.com/10"
+        },
+        {
+          "id": "8",
+          "created_at": "2026-02-14T09:00:00+00:00",
+          "source": "rss",
+          "title": "ZK rollups add account abstraction features",
+          "url": "https://example.com/8"
+        },
+        {
+          "id": "7",
+          "created_at": "2026-02-13T12:45:00+00:00",
+          "source": "hn",
+          "title": "I built an RSS narrative tracker for crypto headlines",
+          "url": "https://example.com/7"
+        },
+        {
+          "id": "5",
+          "created_at": "2026-02-12T10:00:00+00:00",
+          "source": "rss",
+          "title": "Stablecoin rails: more merchants accept USDC for cross-border payments",
+          "url": "https://example.com/5"
+        },
+        {
+          "id": "2",
+          "created_at": "2026-02-11T09:10:00+00:00",
+          "source": "rss",
+          "title": "ZK proofs move from theory to production with faster provers",
+          "url": "https://example.com/2"
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "name": "depin, networks, marketplaces",
+      "keywords": [
+        "depin",
+        "networks",
+        "marketplaces",
+        "workloads",
+        "new",
+        "ai",
+        "models",
+        "demand"
+      ],
+      "volume": 3,
+      "recent": 2,
+      "recent_days": 3,
+      "trend_ratio": 2.0,
+      "score": 1.6624618986159398,
+      "examples": [
+        {
+          "id": "9",
+          "created_at": "2026-02-14T14:20:00+00:00",
+          "source": "rss",
+          "title": "DePIN compute networks compete for AI inference workloads",
+          "url": "https://example.com/9"
+        },
+        {
+          "id": "6",
+          "created_at": "2026-02-13T07:30:00+00:00",
+          "source": "rss",
+          "title": "Solana DePIN: mapping networks partner with telecom resellers",
+          "url": "https://example.com/6"
+        },
+        {
+          "id": "1",
+          "created_at": "2026-02-10T12:00:00+00:00",
+          "source": "rss",
+          "title": "DePIN demand spikes as bandwidth marketplaces grow",
+          "url": "https://example.com/1"
+        }
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "name": "ai, models",
+      "keywords": [
+        "ai",
+        "models"
+      ],
+      "volume": 2,
+      "recent": 1,
+      "recent_days": 3,
+      "trend_ratio": 1.0,
+      "score": 1.0542367587674604,
+      "examples": [
+        {
+          "id": "4",
+          "created_at": "2026-02-12T08:15:00+00:00",
+          "source": "rss",
+          "title": "Meme coins rotate into AI-themed tokens again",
+          "url": "https://example.com/4"
+        },
+        {
+          "id": "3",
+          "created_at": "2026-02-11T13:00:00+00:00",
+          "source": "hn",
+          "title": "Show HN: A local-first AI agent for code reviews",
+          "url": "https://example.com/3"
+        }
+      ]
+    }
+  ]
+}

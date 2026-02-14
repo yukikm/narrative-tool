@@ -1,0 +1,14 @@
+[project]
+name = "narrativelens"
+version = "0.0.1"
+description = "Narrative detection + idea generation prototype (offline-friendly)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Open-source contributors"}]
+
+[tool.ruff]
+line-length = 100
+
+[project.scripts]
+narrativelens = "narrativelens.cli:app"

@@ -1,0 +1,24 @@
+# Demo (reproducible)
+
+This demo is designed to be reproducible **offline** using the included sample dataset.
+
+## Commands
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python -m narrativelens detect data/sample_posts.jsonl --out out/report.json
+python -m narrativelens ideas out/report.json --out out/ideas.md
+```
+
+## Expected artifacts
+
+- `out/report.json` (detected narratives)
+- `out/ideas.md` (ideas grouped by narrative)
+
+## Notes
+
+- This is a prototype; clustering quality depends on dataset size and text quality.
+- For real usage, swap in a bigger dataset and/or add better topic modeling (embeddings).
