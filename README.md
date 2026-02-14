@@ -28,8 +28,17 @@ This is a working prototype intended for Superteam Earn listing **“develop-a-n
 
 ### 1) Create a venv + install
 
+Ubuntu/Debian (if needed):
+
 ```bash
-python -m venv .venv
+sudo apt-get update
+sudo apt-get install -y python3-venv python3-pip
+```
+
+Then:
+
+```bash
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```

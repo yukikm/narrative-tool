@@ -5,7 +5,11 @@ This demo is designed to be reproducible **offline** using the included sample d
 ## Commands
 
 ```bash
-python -m venv .venv
+# Ubuntu/Debian deps (if missing)
+sudo apt-get update
+sudo apt-get install -y python3-venv python3-pip
+
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
