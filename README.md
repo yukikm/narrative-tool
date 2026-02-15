@@ -93,6 +93,8 @@ Each line is a JSON object:
 
 See `docs/demo.md` for a reproducible run log (commands + expected artifacts).
 
+A copy of the demo output is committed under `docs/examples/` for quick review.
+
 ## Roadmap / plug-ins
 
 - Add real data sources (RSS/HN/GitHub trends/X) behind an interface.
